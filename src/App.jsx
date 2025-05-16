@@ -51,7 +51,7 @@ function App() {
         <nav className="navbar">
           <div className="navbar-left">
             <span className="brand">
-              🛒 <strong>BigBasket</strong>
+              🛒 <strong>RamStore</strong>
             </span>
           </div>
 
