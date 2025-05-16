@@ -1,0 +1,152 @@
+/* === ULTRA PREMIUM DARK + GLASSMORPHISM DESIGN === */
+
+.orders-container {
+  
+  padding: 40px 24px;
+  border-radius: 20px;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  
+  color: #f5f5f5;
+  
+  
+  animation: fadeIn 0.8s ease;
+}
+
+/* Entrance animation */
+@keyframes slideFade {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === No Orders === */
+.no-orders {
+  text-align: center;
+  margin-top: 60px;
+  color: #bbbbbb;
+  animation: pulseFade 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes pulseFade {
+  from {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+}
+
+.no-orders h2 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.no-orders p {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+/* === Order List === */
+.orders-list {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0;
+  max-height: 72vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #222;
+}
+
+.orders-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.orders-list::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 5px;
+}
+
+.orders-list::-webkit-scrollbar-track {
+  background: #1c1c1c;
+}
+
+/* === Order Card === */
+.order-card {
+  background: rgba(30, 30, 30, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-left: 5px solid #00d09c;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 28px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(6px);
+}
+
+.order-card:hover {
+  transform: scale(1.015);
+  box-shadow: 0 12px 32px rgba(0, 255, 180, 0.2);
+}
+
+/* === Order Title === */
+.order-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0 0 16px;
+}
+
+.order-card i {
+  color: #64ffda;
+  font-size: 1.3rem;
+}
+
+/* === Order Items === */
+.order-items {
+  list-style: none;
+  padding-left: 24px;
+  margin: 12px 0 0;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  color: #dddddd;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.order-item i {
+  color: #00e676;
+}
+
+.order-item:hover {
+  color: #ffffff;
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+  .orders-container {
+    padding: 24px 16px;
+  }
+
+  .order-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .order-item {
+    font-size: 0.95rem;
+  }
+}

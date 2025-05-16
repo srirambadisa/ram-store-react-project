@@ -1,0 +1,137 @@
+/* Milk.css */
+
+.milk-fullscreen-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  animation: fadeIn 0.8s ease;
+}
+
+.milk-container {
+  width: 100%;
+  max-width: 1500px;
+  padding: 0 1rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeIn 0.8s ease;
+}
+
+.milk-page-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #8be9fd;
+  text-shadow: 0 0 10px rgba(139, 233, 253, 0.5);
+}
+
+.milk-product-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.milk-product-card {
+  background: #161b22;
+  border-radius: 15px;
+  width: 260px;
+  padding: 1rem;
+  box-shadow: 0 0 12px rgba(139, 233, 253, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.milk-product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(139, 233, 253, 0.3);
+}
+
+.milk-product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.milk-product-name {
+  font-size: 1.2rem;
+  color: #8be9fd;
+  margin-bottom: 0.5rem;
+}
+
+.milk-product-price {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.milk-product-description {
+  font-size: 0.9rem;
+  color: #b3b3b3;
+  margin-bottom: 1rem;
+}
+
+.milk-add-cart-button {
+  background: linear-gradient(145deg, #8be9fd, #4cc9f0);
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.milk-add-cart-button:hover {
+  background: linear-gradient(145deg, #4cc9f0, #00bcd4);
+}
+
+.milk-pagination-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.milk-page-button {
+  background-color: #21262d;
+  color: #8be9fd;
+  border: 1px solid #4cc9f0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.milk-page-button:hover {
+  background-color: #4cc9f0;
+  color: #000;
+}
+
+.milk-page-button.active {
+  background-color: #8be9fd;
+  color: #000;
+}
+
+/* Optional: smooth fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
