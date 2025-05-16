@@ -155,8 +155,7 @@ body {
 
 .feature-card:hover {
   transform: translateY(-8px);
-  background: linear-gradient(to bottom right, #1557ca, #b388ff);
-  color: #fff;
+  transition: transform 0.3s ease;
 }
 
 .feature-card h3 {
@@ -170,7 +169,9 @@ body {
   font-size: 32px;
   margin: 40px 0 20px;
   text-align: center;
-  color: #f9f7fa;
+  color: #f0e913;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 0 0 10px #080909, 0 0 20px #07100d;
 }
 
 .categories-container {

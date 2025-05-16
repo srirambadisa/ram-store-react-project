@@ -27,6 +27,17 @@ function AboutUs() {
           <li>✅ Trusted by thousands of happy customers</li>
         </ul>
       </div>
+
+      <div className="about-section team-section">
+        <h2>👨‍💻 Meet the Team</h2>
+        <ul className="team-list">
+          <li className="team-member">Sriram</li>
+          <li className="team-member">Sandeep</li>
+          <li className="team-member">Venky</li>
+          <li className="team-member">Bhargav</li>
+        </ul>
+
+      </div>
     </div>
   );
 }

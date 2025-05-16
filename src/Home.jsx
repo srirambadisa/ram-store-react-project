@@ -25,22 +25,22 @@ function Home() {
 
   return (
     <>
-    <div className="welcome-container">
-      {/* Hero Section */}
-      <div className="hero-section">
-        <h1 className="main-heading">
-          Welcome to Ram Store
-        </h1>
-        <p className="sub-text">
-          Your trusted destination for groceries, essentials, and everyday products at the best prices!
-        </p>
+      <div className="welcome-container">
+        {/* Hero Section */}
+        <div className="hero-section">
+          <h1 className="main-heading">
+            Welcome to Ram Store
+          </h1>
+          <p className="sub-text">
+            Everything you need, from groceries to everyday items — all in one place at great prices!
+          </p>
+        </div>
       </div>
-      </div>
-      
+
       <div className="body-container">
 
 
-      {/* <div className="image-row">
+        {/* <div className="image-row">
         <img src="/images/asalu.jpg" alt="Banner 1" className="banner-img" />
         <img src="/images/online.avif" alt="Banner 2" className="banner-img" />
         <img src="/images/some.jpg" alt="Banner 3" className="banner-img" />
@@ -48,60 +48,63 @@ function Home() {
 
 
 
-      {/* Features */}
-      <h2 className="categories-heading">Special Features For Yours</h2>
-      <div className="features-container">
-        
-        <div className="feature-card">
-          <h3>⚡ Quick Shipping</h3>
-          <p>Get your order delivered on the same day in key metro areas.</p>
+        {/* Features */}
+        <h2 className="categories-heading">✨ Special Features ✨</h2>
+        <div className="features-container">
 
-        </div>
-        <div className="feature-card">
-          <h3>🛍️ Wide Variety</h3>
-          <p>Explore thousands of items in diverse categories.</p>
-
-        </div>
-        <div className="feature-card">
-          <h3>🔒 Safe Checkout</h3>
-          <p>Choose from various payment methods, all protected by SSL encryption.</p>
-
-        </div>
-      </div>
-
-      
+          <div className="feature-card">
+            <h3>⚡ Fast Delivery</h3>
+            <p>Receive your order the same day in major metro cities.</p>
 
 
+          </div>
+          <div className="feature-card">
+            <h3>🛍️ Endless Choices</h3>
+            <p>Shop from thousands of options across diverse product lines.</p>
 
-      {/* Category Navigation */}
-      <h2 className="categories-heading">Browse by collections here</h2>
-      <div className="categories-container">
-        
-        <div className="category-card">
-          <Link to="/Veg">
-            <img src="/images/vegetables1.jpg" alt="Vegetables" className="category-image" />
-            <h3>Vegetables</h3>
-          </Link>
+
+          </div>
+          <div className="feature-card">
+            <h3>🔒 Trusted Payments</h3>
+            <p>Pay with confidence using secure, encrypted methods.</p>
+
+
+          </div>
         </div>
-        <div className="category-card">
-          <Link to="/NonVeg">
-            <img src="/images/nonvegetables1.jpg" alt="Non-Veg" className="category-image" />
-            <h3>Non-Veg</h3>
-          </Link>
+
+
+
+
+
+        {/* Category Navigation */}
+        <h2 className="categories-heading">💖 Find Your Favorites by Collection</h2>
+        <div className="categories-container">
+
+          <div className="category-card">
+            <Link to="/Veg">
+              <img src="/images/vegetables1.jpg" alt="Vegetables" className="category-image" />
+              <h3>Vegetables</h3>
+            </Link>
+          </div>
+          <div className="category-card">
+            <Link to="/NonVeg">
+              <img src="/images/nonvegetables1.jpg" alt="Non-Veg" className="category-image" />
+              <h3>Non-Veg</h3>
+            </Link>
+          </div>
+          <div className="category-card">
+            <Link to="/Milk">
+              <img src="/images/milkproducts1.avif" alt="Milk" className="category-image" />
+              <h3>Milk</h3>
+            </Link>
+          </div>
+          <div className="category-card">
+            <Link to="/Chocolate">
+              <img src="/images/chocolates1.webp" alt="Chocolate" className="category-image" />
+              <h3>Chocolates</h3>
+            </Link>
+          </div>
         </div>
-        <div className="category-card">
-          <Link to="/Milk">
-            <img src="/images/milkproducts1.avif" alt="Milk" className="category-image" />
-            <h3>Milk</h3>
-          </Link>
-        </div>
-        <div className="category-card">
-          <Link to="/Chocolate">
-            <img src="/images/chocolates1.webp" alt="Chocolate" className="category-image" />
-            <h3>Chocolates</h3>
-          </Link>
-        </div>
-      </div>
       </div>
 
       {/* for images scrolling */}
@@ -142,9 +145,9 @@ function Home() {
         ))}
       </div> */}
 
-      
 
-      
+
+
 
 
       {/* Footer */}
