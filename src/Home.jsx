@@ -146,6 +146,21 @@ function Home() {
       </div> */}
 
 
+      <div className="famous-container">
+        <h3 className="famous-heading">🌿 Experience the Freshest Picks — Loved and Trusted by Thousands! 💚👨‍👩‍👧‍👦</h3>
+
+        <p className="famous-sub-text">
+          🎯 Shop smart and save big —  <br />
+          all your essentials under one roof, only fresher and better! 🛒🌿
+        </p>
+
+        <div className="image-row">
+          <img src="/images/famous.avif" alt="Banner 2" className="banner-img" />
+          <img src="/images/famous4.jpg" alt="Banner 3" className="banner-img" />
+          <img src="/images/famous5.jpg" alt="Banner 1" className="banner-img" />
+        </div>
+      </div>
+
 
 
 
